@@ -1,0 +1,16 @@
+{
+  "name": "sass-day2-advanced-rules",
+  "version": "1.0.0",
+  "description": "to  Everyone\r // 1. declare 5 sass variables and use them in rulesets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.2",
+    "scss": "^0.2.4"
+  }
+}

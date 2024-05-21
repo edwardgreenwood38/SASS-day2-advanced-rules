@@ -1,0 +1,19 @@
+// Declare the mixin
+@mixin color-change {
+    &:hover,
+    &:focus,
+    &:active {
+      color: red;
+      background-color: lightgray;
+    }
+  }
+  
+  // Apply the mixin to a selector
+  .class-example1 {
+    @include color-change;
+  }
+  
+  .class-example2 {
+    @include color-change;
+  }
+  

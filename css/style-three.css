@@ -1,0 +1,11 @@
+.class-example1:hover, .class-example1:focus, .class-example1:active {
+  color: red;
+  background-color: lightgray;
+}
+
+.class-example2:hover, .class-example2:focus, .class-example2:active {
+  color: red;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=style-three.css.map */

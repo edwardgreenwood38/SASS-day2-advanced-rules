@@ -1,0 +1,46 @@
+// Declare SASS variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$border-radius: 5px;
+$padding: 20px;
+
+// Use variables in rulesets
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  color: white;
+}
+
+button {
+  background-color: $secondary-color;
+  color: white;
+  border-radius: $border-radius;
+  padding: $padding;
+  border: none;
+  cursor: pointer;
+  font-family: $font-stack;
+}
+
+header {
+  background-color: darken($primary-color, 10%);
+  padding: $padding;
+  border-bottom: 2px solid lighten($primary-color, 10%);
+}
+
+.card {
+  background-color: white;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: $padding;
+  font-family: $font-stack;
+  color: darken($primary-color, 20%);
+}
+
+.footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: $padding;
+  border-top: 2px solid lighten($primary-color, 10%);
+}

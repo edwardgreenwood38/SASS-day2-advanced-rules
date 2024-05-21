@@ -1,0 +1,19 @@
+.container {
+    .box {
+      background-color: yellow;
+      border: 1px solid black;
+      
+      .button {
+        color: green;
+      }
+  
+      &.link {
+        color: blue;
+  
+        &:hover {
+          color: purple;
+        }
+      }
+    }
+  }
+  
