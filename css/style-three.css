@@ -1,11 +1,21 @@
-.class-example1:hover, .class-example1:focus, .class-example1:active {
+.example1:hover {
   color: red;
-  background-color: lightgray;
+}
+.example1:focus {
+  color: orange;
+}
+.example1:active {
+  color: blue;
 }
 
-.class-example2:hover, .class-example2:focus, .class-example2:active {
+.example2:hover {
   color: red;
-  background-color: lightgray;
+}
+.example2:focus {
+  color: orange;
+}
+.example2:active {
+  color: blue;
 }
 
 /*# sourceMappingURL=style-three.css.map */
