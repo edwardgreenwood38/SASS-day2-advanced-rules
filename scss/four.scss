@@ -1,0 +1,14 @@
+// Declare the mixin with a parameter
+@mixin color-change($color) {
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color;
+    }
+  }
+  
+  // Apply the mixin to a selector with a specific color value
+  .example1 {
+    @include color-change(red);
+  }
+  
